@@ -1,0 +1,53 @@
+{
+  "name": "Ceritaku App",
+  "short_name": "Ceritaku",
+  "description": "Aplikasi berbagi cerita dengan map dan notifikasi",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#101041",
+  "icons": [
+    {
+      "src": "images/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah Cerita",
+      "short_name": "Tambah",
+      "description": "Membuat cerita baru",
+      "url": "/#/add",
+      "icons": [
+        {
+          "src": "images/icons/icon-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshots/desktop.png",
+      "sizes": "1440x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Tampilan Desktop Aplikasi"
+    },
+    {
+      "src": "/images/screenshots/mobile.png",
+      "sizes": "375x667",
+      "type": "image/png", 
+      "form_factor": "narrow",
+      "label": "Tampilan Mobile"
+    }
+  ]
+}
